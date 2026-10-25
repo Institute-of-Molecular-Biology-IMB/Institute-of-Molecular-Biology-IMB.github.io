@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>İMB | Molekulyar Biologiya və Biotexnologiyalar İnstitutu</title>
+  <meta name="description" content="AR ETN Molekulyar Biologiya və Biotexnologiyalar İnstitutu - Hesablama Struktur Biologiyası, İnteqrativ Bioinformatika və Bitki Genomikası">
+  <meta name="keywords" content="IMB, IMBB, Bioinformatics, Molecular Biology, Computational Biology, Wheat Heat Stress, STN7, STN8, Systems Biology, Baku, Azerbaijan">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/imb-logo.png">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo">
+        <img src="assets/images/imb-logo.png" alt="IMB Logo" class="brand-img">
+        <div class="brand-text">
+          <span class="brand-title">İMB</span>
+          <span class="brand-subtitle">Molekulyar Biologiya İnstitutu</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="#about" class="nav-link">Haqqında</a>
+        <a href="#research" class="nav-link">Tədqiqatlar</a>
+        <a href="#symposium" class="nav-link">Simpozium & Uğurlar</a>
+        <a href="#publications" class="nav-link">Elmi İşlər</a>
+        <a href="#data-portal" class="nav-link">Açıq Elm Portalı</a>
+        <a href="#contact" class="nav-link">Əlaqə</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="https://github.com/Institute-of-Molecular-Biology-IMB/IMB" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+          </svg>
+          <span>IMB Data Repo</span>
+        </a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Menyu aç">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-glow"></div>
+    <div class="container hero-content">
+      <div class="badge-pill">
+        <span class="badge-dot"></span>
+        AR ETN Molekulyar Biologiya və Biotexnologiyalar İnstitutu PHŞ
+      </div>
+      <h1 class="hero-title">
+        Hesablama Struktur Biologiyası, <br>
+        <span class="text-gradient">İnteqrativ Bioinformatika</span> & Bitki Genomikası
+      </h1>
+      <p class="hero-desc">
+        Molekulyar səviyyədə bioloji mexanizmlərin dərki: xloroplast kinazlarının molekulyar dokinqi,
+        buğda genotiplərinin istilik stressinə dözümlülüyünün riyazi modelləşdirilməsi və sistem onkologiyası üzrə qabaqcıl hesablama platforması.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#research" class="btn btn-primary">Tədqiqat İstiqamətləri</a>
+        <a href="https://github.com/Institute-of-Molecular-Biology-IMB/IMB" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+          <span>Elmi Məlumatlar & Kodlar</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+
+      <!-- Quick Metrics -->
+      <div class="hero-metrics">
+        <div class="metric-card">
+          <div class="metric-num">10+</div>
+          <div class="metric-label">Hesablama Boru Kəməri</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-num">AlphaFold2</div>
+          <div class="metric-label">Struktur & Dokinq Analizi</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-num">1-ci Yer 🏆</div>
+          <div class="metric-label">Qarabağ Hakatonu 2026 (InvestArea)</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-num">Beynəlxalq</div>
+          <div class="metric-label">MRC LMB Cambridge Əməkdaşlığı</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">İnstitut və Missiya</span>
+        <h2 class="section-title">Elmi Tədqiqat Mərkəzi Haqqında</h2>
+        <p class="section-subtitle">
+          Akademik Cəlal Əliyevin elmi irsini davam etdirərək fundamental biologiyanı qabaqcıl süni intellekt və bioinformatika metodları ilə birləşdiririk.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="card-icon">🧬</div>
+          <h3>Hesablama Struktur Biologiyası</h3>
+          <p>
+            Zülalların 3D konformasiya analizi, krio-elektron mikroskopiyası (cryo-EM) məlumatlarının metal koordinasiyası ilə təkmilləşdirilməsi və allosterik tənzimləyicilərin xarakteristikası.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <div class="card-icon">🌾</div>
+          <h3>Bitki Stress Genomikası</h3>
+          <p>
+            İqlim dəyişikliyi şəraitində buğda (<em>Triticum aestivum</em>) sortlarının quraqlıq və yüksək temperatur stressinə qarşı antioksidant ferment və istilik-şok zülallarının (HSP) transkriptomik analizi.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <div class="card-icon">🔬</div>
+          <h3>Sistem Onkologiyası & İmmunologiya</h3>
+          <p>
+            Üçqat neqativ süd vəzi xərçəngi (TNBC) və digər onkoloji proseslərdə şiş mikroətrafının (TME) tənzimlənməsi, gen birgə-ekspressiya şəbəkələri (Pearson/WGCNA) və biomarker kəşfi.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <div class="card-icon">🌱</div>
+          <h3>Ağıllı Aqrotexnologiyalar & Şəhərsalma</h3>
+          <p>
+            İşğaldan azad edilmiş Qarabağ və Şərqi Zəngəzur torpaqlarının boniteti, ANAMA minatəmizləmə statusu və GIS əsaslı aqrar investisiya portallarının (“InvestArea”) elmi arxitekturası.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Research Section with Figures -->
+  <section class="section research" id="research">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Elmi Nəticələr & Vizualizasiyalar</span>
+        <h2 class="section-title">Əsas Tədqiqat İstiqamətləri</h2>
+        <p class="section-subtitle">
+          İnstitutumuzun əldə etdiyi real riyazi modellər, AlphaFold strukturları və yüksək ayırdetməli qrafiklər.
+        </p>
+      </div>
+
+      <!-- Research Item 1: Chloroplast Kinases STN7 / STN8 -->
+      <div class="research-showcase">
+        <div class="research-text">
+          <span class="pillar-tag">FOTOSİNTEZ VƏ STRUKTUR BİOLOGİYASI</span>
+          <h3>Xloroplast Tilakoid Kinazlarının (STN7 / STN8) Molekulyar Dokinqi</h3>
+          <p>
+            Fotosintezin işıq toplayıcı kompleksi II (LHCII) zülallarının fosforilləşməsini idarə edən STN7 və STN8 kinazlarının fəza arxitekturası AlphaFold2 ilə modelləşdirilmiş, AutoDock Vina vasitəsilə allosterik liqandlarla bağlanma enerjisi (Ki və ΔG) hesablanmışdır.
+          </p>
+          <ul class="feature-list">
+            <li><strong>AlphaFold Domain xəritəsi:</strong> pLDDT &gt; 90 yüksək etibarlılıq dərəcəsi ilə domen ayrılması;</li>
+            <li><strong>Molekulyar Dokinq:</strong> STN7 və STN8 aktiv mərkəzində kritik aminturşu qalıqlarının (ATP-bağlayıcı cib) skrininqi;</li>
+            <li><strong>Dövlət keçidləri (State Transitions):</strong> PSII və PSI arasındakı həyəcanlanma enerjisinin balanslaşdırılması mexanizmi.</li>
+          </ul>
+          <a href="https://github.com/Institute-of-Molecular-Biology-IMB/IMB/tree/master/stn7_stn8_pipeline" target="_blank" rel="noopener noreferrer" class="link-arrow">
+            Boru kəmərinin kodlarına baxın &rarr;
+          </a>
+        </div>
+        <div class="research-media">
+          <div class="media-frame" onclick="openLightbox('assets/images/kinase-docking.png', 'STN7 və STN8 Kinazlarının Molekulyar Dokinq Nəticələri')">
+            <img src="assets/images/kinase-docking.png" alt="STN7 və STN8 Kinazlarının Dokinqi" loading="lazy">
+            <div class="media-overlay">
+              <span>Böyütmək üçün klikləyin 🔍</span>
+            </div>
+          </div>
+          <div class="media-subframe" onclick="openLightbox('assets/images/alphafold-structure.png', 'AlphaFold2 STN7-STN8 Kompleks pLDDT Güvənlik Profili')">
+            <img src="assets/images/alphafold-structure.png" alt="AlphaFold2 STN7-STN8 pLDDT Profili" loading="lazy">
+            <div class="media-caption">AlphaFold2 Kompleks pLDDT Güvənlik Profili</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Research Item 2: Wheat Heat Stress & Membrane Damage Modeling -->
+      <div class="research-showcase reverse">
+        <div class="research-text">
+          <span class="pillar-tag">RİYAZİ BİOLOGİYA VƏ GENOMİKA</span>
+          <h3>Buğda Sortlarında İstilik Stressi & Membran Zədələnməsi (LT50 Modeli)</h3>
+          <p>
+            Yüksək temperatur təsirindən hüceyrə membranlarının lipid fazasının deqradasiyası və elektrolit sızması qeyri-xətti 4-parametrlik loqistik siqmoidal funksiya ilə təsvir edilmişdir:
+          </p>
+          <div class="code-box">
+            <code>MDR(T) = MDR_max / (1 + exp(-k * (T - LT50)))</code>
+          </div>
+          <p>
+            Müxtəlif buğda genotiplərinin (Barakatli 95, Giymatli 2/17 və s.) membran sabitliyi, antioksidant fermentlərin (Cu/Zn-SOD, Fe-SOD, Mn-SOD) və kiçik istilik-şok zülallarının (HSP16.9) sintezi ilə korrelyasiya olunmuşdur.
+          </p>
+          <ul class="feature-list">
+            <li><strong>LT50 İndeksi:</strong> Membranın 50% zədələnməsinə səbəb olan kritik termal letallıq həddi;</li>
+            <li><strong>PCA & Klasterizasiya:</strong> Dözümlü və həssas sortların çoxölçülü ayrılması;</li>
+            <li><strong>Spektral İnterpolyasiya:</strong> PolyPen cihazı ilə yarpaq spektrofotometrik əyrilərinin filtrasiyası.</li>
+          </ul>
+          <a href="https://github.com/Institute-of-Molecular-Biology-IMB/IMB/tree/master/research/wheat_heat_stress" target="_blank" rel="noopener noreferrer" class="link-arrow">
+            RStudio Analiz Skriptlərinə baxın &rarr;
+          </a>
+        </div>
+        <div class="research-media">
+          <div class="media-frame" onclick="openLightbox('assets/images/wheat-heat-stress.png', 'Buğda Sortlarında Qeyri-xətti Siqmoidal LT50 Reqressiya Modelləri')">
+            <img src="assets/images/wheat-heat-stress.png" alt="Buğda İstilik Stressi Reqressiyası" loading="lazy">
+            <div class="media-overlay">
+              <span>Böyütmək üçün klikləyin 🔍</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Research Item 3: Systems Oncology & Gene Co-expression Networks -->
+      <div class="research-showcase">
+        <div class="research-text">
+          <span class="pillar-tag">SİSTEM ONKOLOGİYASI & MAŞIN ÖYRƏNMƏSİ</span>
+          <h3>Genomik Şəbəkələr, PCA və İmmun Hüceyrə İnfiltrasiyası</h3>
+          <p>
+            Kütləvi transkriptomik verilənlər bazası (TCGA/GEO) əsasında xərçəng toxuması mikroətrafının fenotipik dəyişiklikləri, KEGG yolları zənginləşdirməsi və maşın öyrənməsi ilə proqnostik biomarkerlərin müəyyənləşdirilməsi:
+          </p>
+          <ul class="feature-list">
+            <li><strong>Eigendekompozisiya (PCA):</strong> Xəstə qruplarının genetik ekspressiya profilinə görə ayrılması;</li>
+            <li><strong>Pearson Birgə-Ekspressiya Şəbəkələri:</strong> Kritik siqnal yollarının mərkəzi hab genləri (Hub Genes);</li>
+            <li><strong>Maşın Öyrənməsi & ROC Əyrisi:</strong> Yüksək dəqiqlikli diaqnostik təsnifat modelləri.</li>
+          </ul>
+          <a href="https://github.com/Institute-of-Molecular-Biology-IMB/IMB/tree/master/publications/scientific_articles" target="_blank" rel="noopener noreferrer" class="link-arrow">
+            Elmi məqalələr qovluğuna keçid &rarr;
+          </a>
+        </div>
+        <div class="research-media">
+          <div class="media-gallery">
+            <div class="gallery-item" onclick="openLightbox('assets/images/pca-analysis.png', 'Çoxölçülü PCA Biplot Təhlili')">
+              <img src="assets/images/pca-analysis.png" alt="PCA Təhlili" loading="lazy">
+              <span>PCA Ayrılması</span>
+            </div>
+            <div class="gallery-item" onclick="openLightbox('assets/images/expression-heatmap.png', 'Gen Ekspressiyası İyerarxik Klasterizasiya İstilik Xəritəsi')">
+              <img src="assets/images/expression-heatmap.png" alt="Ekspressiya İstilik Xəritəsi" loading="lazy">
+              <span>İyerarxik İstilik Xəritəsi</span>
+            </div>
+            <div class="gallery-item" onclick="openLightbox('assets/images/gene-network.png', 'Pearson Gen Birgə-Ekspressiya Topologiyası')">
+              <img src="assets/images/gene-network.png" alt="Gen Şəbəkəsi" loading="lazy">
+              <span>Şəbəkə Topologiyası</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Symposium & Achievements Section -->
+  <section class="section symposium-section" id="symposium">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Konfranslar & Təltiflər</span>
+        <h2 class="section-title">Elmi Tədbirlər və Zəfərlərimiz</h2>
+        <p class="section-subtitle">
+          Akademik simpoziumlarda fəal iştirak və dövlət əhəmiyyətli rəqəmsal innovasiyalarda birincilik.
+        </p>
+      </div>
+
+      <div class="symposium-grid">
+        <!-- Symposium Card -->
+        <div class="highlight-card symposium-card">
+          <div class="card-badge">BEYNƏLXALQ ELMİ SİMPOZİUM</div>
+          <h3>“Şəhərsalmanın ekoloji, bioloji və tibbi aspektləri: dayanıqlı və sağlam urban mühiti”</h3>
+          <p class="symposium-meta">
+            <span>📅 15–16 Oktyabr</span> &bull; 
+            <span>🏛️ AMEA Biologiya və Tibb Elmləri Bölməsi & AR ETN İMBB</span> &bull;
+            <span>📍 Bakı, İstiqlaliyyət küç. 30</span>
+          </p>
+          <p>
+            Müasir şəhərlərdə ekoloji balansın qorunması, bio-adaptiv urban kənd təsərrüfatı, yaşıllaşdırmada stressə dözümlü bitki sortlarının tətbiqi və şəhər əhalisinin sağlamlığına təsir edən bioloji amillərə həsr olunmuş beynəlxalq elmi forum.
+          </p>
+          <div class="tag-row">
+            <span class="pill-tag">Dayanıqlı Şəhərsalma</span>
+            <span class="pill-tag">Bio-adaptiv Mühit</span>
+            <span class="pill-tag">Urban Ekologiya</span>
+            <span class="pill-tag">Tibbi Biologiya</span>
+          </div>
+        </div>
+
+        <!-- Hackathon Card -->
+        <div class="highlight-card award-card">
+          <div class="card-badge gold">🥇 1-Cİ YER QALİBİ</div>
+          <h3>“Qarabağ Hakatonu 2026” — “InvestArea” Layihəsi</h3>
+          <p class="symposium-meta">
+            <span>📅 14–16 Oktyabr 2026</span> &bull;
+            <span>🤝 Qərbi Kaspi Universiteti & Bakı Mühəndislik Universiteti</span>
+          </p>
+          <p>
+            Qarabağ və Şərqi Zəngəzur iqtisadi rayonlarında aqrar investisiyaların optimallaşdırılması üçün yaradılmış GIS əsaslı rəqəmsal platforma:
+          </p>
+          <ul class="card-bullets">
+            <li><strong>Torpaq Boniteti & Suvarma:</strong> Hər sahənin məhsuldarlıq və nəmlik göstəricilərinin xəritələndirilməsi;</li>
+            <li><strong>ANAMA İnteqrasiyası:</strong> Minatəmizləmə statusunun real vaxt rejimində monitorinqi;</li>
+            <li><strong>KTN EKTİS & mygov:</strong> Kənd Təsərrüfatı Nazirliyinin vahid informasiya sistemi ilə birbaşa inteqrasiya.</li>
+          </ul>
+          <div class="tag-row">
+            <span class="pill-tag gold-tag">GovTech</span>
+            <span class="pill-tag gold-tag">AgroGIS</span>
+            <span class="pill-tag gold-tag">Qarabağ 2026</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Open Science & Data Portal Section -->
+  <section class="section data-portal" id="data-portal">
+    <div class="container">
+      <div class="data-banner">
+        <div class="data-text">
+          <span class="section-tag light">AÇIQ TƏDQİQAT RESURSLARI</span>
+          <h2>Bütün Kodlar və Sənədlər IMB Repozitoriyasında</h2>
+          <p>
+            Məlumatların şəffaflığı və təkrar istehsalı (reproducibility) prinsiplərinə uyğun olaraq,
+            R skriptləri, Python boru kəmərləri, xam spektral fayllar, kristalloqrafiya qeydləri və 
+            təqdimat slaydları institutun əsas repozitoriyasında saxlanılır.
+          </p>
+          <div class="portal-links">
+            <a href="https://github.com/Institute-of-Molecular-Biology-IMB/IMB" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+              </svg>
+              <span>Repozitoriyaya Keçid (GitHub)</span>
+            </a>
+            <a href="https://github.com/Institute-of-Molecular-Biology-IMB" target="_blank" rel="noopener noreferrer" class="btn btn-outline light-border">
+              <span>Təşkilat Hesabı (Organization)</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="data-tree">
+          <div class="tree-header">📁 IMB Repozitoriya Strukturu</div>
+          <pre class="tree-content"><code>IMB/
+├── research/
+│   ├── wheat_heat_stress/      <span class="tree-comment"># LT50 siqmoidal fit & transkriptom</span>
+│   ├── biophysical_stress/     <span class="tree-comment"># PolyPen spektral interpolyasiya</span>
+│   ├── stn7_stn8_pipeline/     <span class="tree-comment"># STN7/STN8 dokinq & AlphaFold2</span>
+│   └── cambridge_analysis/     <span class="tree-comment"># Statistik maşın öyrənməsi</span>
+├── publications/
+│   └── scientific_articles/    <span class="tree-comment"># Əlyazmalar & PLOS nəticələri</span>
+├── Scientific Sympozium/       <span class="tree-comment"># Beynəlxalq Simpozium materialları</span>
+├── education/                  <span class="tree-comment"># Bioinformatika tədris proqramı</span>
+└── backups/                    <span class="tree-comment"># Hesablama logları & mühit skriptləri</span></code></pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Publications Section -->
+  <section class="section publications" id="publications">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Akademik Nəşrlər</span>
+        <h2 class="section-title">Seçilmiş Əsərlər və Beynəlxalq Nəticələr</h2>
+        <p class="section-subtitle">
+          İnstitut əməkdaşlarımızın və beynəlxalq həmmüəlliflərin nüfuzlu jurnallarda dərc olunmuş tədqiqatları.
+        </p>
+      </div>
+
+      <div class="pubs-list">
+        <div class="pub-card">
+          <div class="pub-year">2024</div>
+          <div class="pub-details">
+            <span class="pub-journal">Acta Crystallographica Section D: Structural Biology</span>
+            <h4 class="pub-title">Improving macromolecular structure refinement with metal-coordination restraints</h4>
+            <p class="pub-authors">
+              Kaveh H. Babai, Fei Long, Martin Maly, Keitaro Yamashita, Garib N. Murshudov
+            </p>
+            <p class="pub-desc">
+              Krio-elektron mikroskopiyası və makromolekulyar kristalloqrafiyada zülal-metal koordinasiya həndəsəsinin Kristallografiya Açıq Məlumat Bazası (COD) əsasında dəqiqləşdirilməsi metodologiyası.
+            </p>
+            <div class="pub-links">
+              <span class="pub-doi">DOI: 10.1107/S2059798324011458</span>
+              <span class="pub-badge">CCP4 Proceedings</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="pub-card">
+          <div class="pub-year">2026</div>
+          <div class="pub-details">
+            <span class="pub-journal">PLOS Computational Biology / PLOS ONE Research</span>
+            <h4 class="pub-title">Integrative Multi-Omics Profiling & Co-Expression Landscape in Oncogenomics</h4>
+            <p class="pub-authors">
+              Suleiman Hajizadeh, et al.
+            </p>
+            <p class="pub-desc">
+              Şiş mikroətrafı infiltrasiya dinamikası, zülal-zülal qarşılıqlı təsir habları və maşın öyrənməsi ilə proqnozlaşdırılan biomarker dəstləri.
+            </p>
+            <div class="pub-links">
+              <span class="pub-badge">Systems Biology</span>
+              <span class="pub-badge">Machine Learning</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Footer -->
+  <footer class="footer" id="contact">
+    <div class="container footer-content">
+      <div class="footer-col brand-col">
+        <div class="footer-logo">
+          <img src="assets/images/imb-logo.png" alt="IMB">
+          <span>İMB PHŞ</span>
+        </div>
+        <p class="footer-text">
+          Azərbaycan Respublikası Elm və Təhsil Nazirliyi Molekulyar Biologiya və Biotexnologiyalar İnstitutu.
+          Elm, biotexnologiya və innovasiyanın inteqrasiyası.
+        </p>
+        <div class="footer-social">
+          <a href="https://github.com/Institute-of-Molecular-Biology-IMB" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Bölmələr</h4>
+        <ul class="footer-links">
+          <li><a href="#about">İnstitut Haqqında</a></li>
+          <li><a href="#research">Hesablama Tədqiqatları</a></li>
+          <li><a href="#symposium">Beynəlxalq Simpozium</a></li>
+          <li><a href="#publications">Elmi Məqalələr</a></li>
+          <li><a href="#data-portal">Açıq Repozitoriya</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Əlaqə</h4>
+        <p class="contact-line"><strong>Ünvan:</strong> İzzət Nəbiyev küç. 11 / İstiqlaliyyət küç. 30, AZ1001, Bakı, Azərbaycan</p>
+        <p class="contact-line"><strong>Elmi Katiblik:</strong> (+994 12) 492-28-35 / 492-28-27</p>
+        <p class="contact-line"><strong>E-poçt:</strong> <a href="mailto:afig.mammadov@gmail.com">afig.mammadov@gmail.com</a></p>
+        <p class="contact-line"><strong>Təşkilat:</strong> <a href="https://github.com/Institute-of-Molecular-Biology-IMB" target="_blank" rel="noopener">Institute-of-Molecular-Biology-IMB</a></p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>&copy; 2026 AR ETN Molekulyar Biologiya və Biotexnologiyalar İnstitutu. Bütün hüquqlar qorunur.</p>
+        <p class="footer-credit">Hesablama Bioinformatikası və Struktur Biologiyası Qrupu</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal for Figures -->
+  <div class="lightbox" id="lightbox" onclick="closeLightbox(event)">
+    <div class="lightbox-dialog">
+      <button class="lightbox-close" onclick="closeLightbox(event)" aria-label="Bağla">&times;</button>
+      <img src="" alt="" id="lightboxImg" class="lightbox-img">
+      <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
