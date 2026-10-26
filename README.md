@@ -1,6 +1,6 @@
 # 🌐 [IMB.github.io](https://institute-of-molecular-biology-imb.github.io) — Official Website
 
-This repository hosts the public-facing portal for the **Institute of Molecular Biology and Biotechnologies (IMB)**:
+This repository hosts the public-facing portal for the **Institute of Molecular Biology (IMB)**:
 👉 **[https://institute-of-molecular-biology-imb.github.io/](https://institute-of-molecular-biology-imb.github.io/)**
 
 ## 🔬 Core Focus
