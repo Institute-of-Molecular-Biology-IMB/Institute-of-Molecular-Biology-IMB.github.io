@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Root URL -->
+  <url>
+    <loc>https://institute-of-molecular-biology-imb.github.io/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://institute-of-molecular-biology-imb.github.io/assets/images/imb-logo.png</image:loc>
+      <image:title>Institute of Molecular Biology (IMB) Official Logo</image:title>
+      <image:caption>AR ETN Molekulyar Biologiya İnstitutu PHŞ Rəsmi Loqosu</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://institute-of-molecular-biology-imb.github.io/assets/images/kinase-docking.png</image:loc>
+      <image:title>STN7 and STN8 Chloroplast Kinase Molecular Docking</image:title>
+      <image:caption>Xloroplast Tilakoid Kinazlarının (STN7 / STN8) Molekulyar Dokinq Nəticələri</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://institute-of-molecular-biology-imb.github.io/assets/images/alphafold-structure.png</image:loc>
+      <image:title>AlphaFold2 STN7-STN8 Complex pLDDT Confidence Profile</image:title>
+      <image:caption>AlphaFold2 Kompleks pLDDT Güvənlik Profili və Struktur Arxitekturası</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://institute-of-molecular-biology-imb.github.io/assets/images/wheat-heat-stress.png</image:loc>
+      <image:title>Wheat Heat Stress Non-linear Sigmoidal LT50 Regression Models</image:title>
+      <image:caption>Buğda Sortlarında Qeyri-xətti Siqmoidal LT50 Reqressiya Modelləri və Membran Zədələnməsi</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://institute-of-molecular-biology-imb.github.io/assets/images/pca-analysis.png</image:loc>
+      <image:title>Principal Component Analysis (PCA) Multi-Omics Biplot</image:title>
+      <image:caption>Çoxölçülü PCA Biplot Təhlili və Genetik Ayrılma</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://institute-of-molecular-biology-imb.github.io/assets/images/expression-heatmap.png</image:loc>
+      <image:title>Hierarchical Clustering Gene Expression Heatmap</image:title>
+      <image:caption>Gen Ekspressiyası İyerarxik Klasterizasiya İstilik Xəritəsi</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://institute-of-molecular-biology-imb.github.io/assets/images/gene-network.png</image:loc>
+      <image:title>Pearson Gene Co-expression Network Topology</image:title>
+      <image:caption>Pearson Gen Birgə-Ekspressiya Topologiyası və Hab Genləri</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Deep Path URLs -->
+  <url>
+    <loc>https://institute-of-molecular-biology-imb.github.io/about/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://institute-of-molecular-biology-imb.github.io/research/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://institute-of-molecular-biology-imb.github.io/assets/images/kinase-docking.png</image:loc>
+      <image:title>STN7 and STN8 Chloroplast Kinase Molecular Docking</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://institute-of-molecular-biology-imb.github.io/assets/images/wheat-heat-stress.png</image:loc>
+      <image:title>Wheat Heat Stress Non-linear Sigmoidal LT50 Regression Models</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://institute-of-molecular-biology-imb.github.io/symposium/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://institute-of-molecular-biology-imb.github.io/publications/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://institute-of-molecular-biology-imb.github.io/data-portal/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://institute-of-molecular-biology-imb.github.io/contact/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>

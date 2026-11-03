@@ -1,0 +1,13 @@
+/* TEAM */
+  Chief Researcher / Bioinformatician: Suleiman Hajizadeh (Süleyman Hacızadə)
+  Email: suleyman.hacizade1@gmail.com
+  Affiliation: Institute of Molecular Biology (IMB) / AR ETN Molekulyar Biologiya İnstitutu PHŞ
+  Location: Baku, Azerbaijan
+
+/* COLLABORATION & RESEARCH */
+  Crystallography & Cryo-EM: MRC Laboratory of Molecular Biology (MRC LMB), Cambridge, UK
+  International Partners: Garib N. Murshudov & CCP4 Consortium
+
+/* SITE */
+  Standards: HTML5, CSS3, Modern JavaScript, Schema.org JSON-LD
+  URL: https://institute-of-molecular-biology-imb.github.io/

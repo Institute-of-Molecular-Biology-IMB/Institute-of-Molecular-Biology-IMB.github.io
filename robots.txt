@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Disallow nothing - index all public resources
+Disallow:
+
+# Sitemaps
+Sitemap: https://institute-of-molecular-biology-imb.github.io/sitemap.xml
